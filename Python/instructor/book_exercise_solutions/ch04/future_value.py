@@ -11,7 +11,7 @@
 ##                  "and less than or equal to", high,
 ##                  "Please try again.")
 ##            
-## test change from vs to github
+## test change from vs to github again
 ##def get_int(prompt, low, high):
 ##    while True:
 ##        number = int(input(prompt))
