@@ -1,0 +1,219 @@
+mc
+To refer to an item in a list, you code the list name followed by
+Answer: an index number in brackets, starting with the number 1
+Answer: an index number in parentheses, starting with the number 1
+Answer: *an index number in brackets, starting with the number 0
+Answer: an index number in parentheses starting with the number 0
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+The __________ method adds an item to the end of a list.
+Answer: pop()
+Answer: *append()
+Answer: insert()
+Answer: index()
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+To insert the item “melon” after “grapes” in the following list, you would use which of these methods?<pre>      fruit = ["apple", "banana", "grapes", "mangos", "oranges"]</pre>
+Answer: fruit.pop("melon", 3)	
+Answer: fruit.insert("melon", 3)	
+Answer: *fruit.insert(3, "melon")
+Answer: fruit.append(3, "melon")
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+To remove the item “mangos” from the following list, you would use which of these methods?<pre>      fruit = ["apple", "banana", "grapes", "mangos", "oranges"]</pre>
+Answer: *fruit.remove("mangos") or fruit.pop(3)
+Answer: fruit.remove(3) or fruit.pop("mangos")
+Answer: fruit = remove("mangos") or fruit = pop(3)
+Answer: fruit = pop("mangos")
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+When a function changes the data in a list, the changed list 
+Answer: *does not need to be returned because lists are mutable.
+Answer: is only available within that function.
+Answer: needs to be returned because lists are immutable.
+Answer: does not need to be returned because lists are immutable.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Which of the following is not true about a list of lists?
+Answer: You can use nested for statements to loop through the items in a list of lists.
+Answer: You can refer to an item in an inner list by using two indexes.
+Answer: *To delete an item in the outer list, you first have to delete the list in the item.
+Answer: The inner lists and the outer list are mutable.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Which of the following functions randomly selects one item in a list? 
+Answer: *choice()	
+Answer: shuffle()	
+Answer: lrandom()
+Answer: randomitem()
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Which of the following statements about list copies is not true? When you make a 
+Answer: deep copy of a list, both variables refer to their own copy of the list.
+Answer: *deep copy of a list, both variables refer to the same list.
+Answer: shallow copy of a list, both variables refer to the same list.
+Answer: shallow copy of a list, the list is immutable.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+The primary difference between a tuple and a list is that a tuple
+Answer: has a limited range
+Answer: is indexed starting from 1
+Answer: is mutable
+Answer: *is immutable
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+When you use a multiple assignment statement to unpack a tuple,
+Answer: you assign the tuple to a list
+Answer: *you assign the tuple to a two or more variable names separated by commas
+Answer: you use a for statement to assign the values in the tuple to a list
+Answer: you use indexing to assign the values in the tuple to multiple variables
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Given the following list, what is the value of ages[5]?<pre>      ages = [22, 35, 24, 17, 28]</pre>
+Answer: 22	
+Answer: 17	
+Answer: 28
+Answer: *None: Index error
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Given the following list, what is the value of names[2]?<pre>      names = ["Lizzy", "Mike", "Joel", "Anne", "Donald Duck"]</pre>
+Answer: Mike
+Answer: *Joel
+Answer: Anne
+Answer: None, improper assignment of “Donald Duck” due to space in the name
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Given the following code, what is the value of my_name and what does the list consist of after the second statement is executed?<pre>      names = ["Lizzy", "Mike", "Joel", "Anne", "Donny"]</pre><pre>      my_name = name.pop()</pre>
+Answer: my_name = "Donny", names = ["Lizzy", "Mike", "Joel", "Anne", "Donny"]
+Answer: my_name = "Lizzy", names = ["Mike", "Joel", "Anne", "Donny"]
+Answer: *my_name = "Donny", names = ["Lizzy", "Mike", "Joel", "Anne"]
+Answer: Error: must specify item number with the pop() method
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Given the following code, what would the list consist of after the second statement?<pre>      ages = [22, 35, 24, 17, 28]</pre><pre>      ages.insert(3, 4)</pre>
+Answer: *ages = [22, 35, 24, 4, 17, 28]	
+Answer: ages = [22, 35, 3, 24, 17, 28]	
+Answer: ages = [22, 35, 24, 17, 3, 28]
+Answer: ages = [22, 35, 24, 17, 4, 28]
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+What is the value of the total variable after the following code executes?<pre>      prices = [10, 15, 12, 8]</pre><pre>      total = 0</pre><pre>      i = 1</pre><pre>      while i < len(prices):</pre><pre>            total += prices[i]</pre><pre>            i += 1</pre><pre>      print(total) </pre> 
+Answer: 0	
+Answer: *35	
+Answer: 8	
+Answer: 45
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+What will display after the following code executes? <pre>      def add_item(list, food):</pre><pre>            food = "apple pie"</pre><pre>            list.append(food)</pre><pre>      </pre><pre>      def main():</pre><pre>            lunch = ["sandwich", "chips", "pickle"]</pre><pre>            food = "banana"</pre><pre>            add_item(lunch, food)</pre><pre>            print(lunch)</pre><pre>      </pre><pre>      main()</pre>
+Answer: ['sandwich', 'chips', 'pickle', 'banana']
+Answer: ['sandwich', 'chips', 'pickle', 'banana', 'apple pie']
+Answer: *['sandwich', 'chips', 'pickle', 'apple pie']
+Answer: Error: list is undefined
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Using the code example below, what is the value of students[2][1]?<pre>      def main():</pre> <pre>            students = [["Lizzy", 73, "C"],</pre><pre>                  ["Mike", 98, "A"],</pre><pre>                  ["Joel", 88, "B+"],</pre><pre>                  ["Anne", 93, "A"]]</pre><pre>    <pre>      for student in students:</pre><pre>            for item in student:</pre><pre>                  print(item, end=" ")</pre><pre>   <pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: Joel	
+Answer: *88	
+Answer: Joel, 88, B+	
+Answer: B+
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Using the code example below, what is in the second row of the students list?<pre>      def main():</pre> <pre>            students = [["Lizzy", 73, "C"],</pre><pre>                  ["Mike", 98, "A"],</pre><pre>                  ["Joel", 88, "B+"],</pre><pre>                  ["Anne", 93, "A"]]</pre><pre>    <pre>      for student in students:</pre><pre>            for item in student:</pre><pre>                  print(item, end=" ")</pre><pre>   <pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: *"Mike", 98, "A"	
+Answer: "Joel", 88, "B+"	
+Answer: 73, 98, 88, 93
+Answer: "C", "A", "B+", "A"
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Using the code example below, what would display if the following three lines were added at the end of the main() function?<pre>students.sort()</pre><pre>students.reverse()</pre><pre>print(students)</pre><pre></pre><pre>      def main():</pre> <pre>            students = [["Lizzy", 73, "C"],</pre><pre>                  ["Mike", 98, "A"],</pre><pre>                  ["Joel", 88, "B+"],</pre><pre>                  ["Anne", 93, "A"]]</pre><pre>    <pre>      for student in students:</pre><pre>            for item in student:</pre><pre>                  print(item, end=" ")</pre><pre>   <pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: *[['Mike',98,'A'],['Lizzy',73,'C'],['Joel',88,'B+'],['Anne',93,'A']]
+Answer: [['Anne',93,'A'],['Joel',88,'B+'],['Lizzy',73,'C'],['Mike',98,'A']]
+Answer: 'Mike',98,'A', 'Lizzy',73,'C', 'Joel',88,'B+', 'Anne',93,'A'
+Answer: [‘Mike’], [‘Lizzy’], [‘Joel’], [‘Anne’]
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06
+
+mc
+Which of the following creates a tuple of six strings? 
+Answer: *vehicles = ("sedan","SUV","motorcycle","bicycle","hatchback","truck")
+Answer: vehicles = ["sedan","SUV","motorcycle","bicycle","hatchback","truck"]
+Answer: vehicles = (sedan, SUV, motorcycle, bicycle, hatchback, truck)
+Answer: vehicles = "sedan","SUV","motorcycle","bicycle","hatchback","truck"
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 06

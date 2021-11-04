@@ -1,0 +1,299 @@
+mc
+Which type of expression has a value of either true or false?
+Answer: relational	
+Answer: binary	
+Answer: *Boolean	
+Answer: if-else
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following creates a Boolean variable?
+Answer: flag = True or False	
+Answer: *flag = True	
+Answer: if flag == True:
+Answer: flag == "False"
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+The and operator has
+Answer: *higher precedence than the or operator, but lower precedence than the not operator
+Answer: higher precedence than the or and not operators
+Answer: lower precedence than the or operator, but higher precedence than the not operator
+Answer: lower precedence than the or and not operators
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following in this expression is evaluated first?<pre>      age >= 65 or age <= 18 or status == "retired"</pre>
+Answer: *age >= 65	
+Answer: age <= 18	
+Answer: status == "retired"
+Answer: age >= 65 or age <= 18
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following in this expression is evaluated first?<pre>      age >= 65 and status == "retired" or age < 18</pre>
+Answer: *age >= 65	
+Answer: age <= 18	
+Answer: status == "retired"
+Answer: status == "retired" or age < 18
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+When two strings are compared, they are evaluated based on the ___________________ of the characters in the string.
+Answer: uppercase/lowercase sequence	
+Answer: alphabetical order	
+Answer: *sort sequence
+Answer: string method
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+To compare two strings with mixed uppercase and lowercase letters, a programmer can first use the 
+Answer: upper() method to convert the first character in each string to uppercase.
+Answer: *lower() method to convert all characters in each string to lowercase.
+Answer: lower() method to convert all characters after the first character in each string to lowercase.
+Answer: upper() method to convert all characters after the first character in each string to uppercase.   
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Python will sort the strings that follow in this sequence:<pre>      Peach</pre><pre>      peach</pre><pre>      1peach</pre><pre>      10Peaches</pre>
+Answer: Peach, peach, 1peach, 10Peaches
+Answer: 1peach, 10Peaches, Peach, peach
+Answer: *10Peaches, 1peach, Peach, peach
+Answer: 10peaches, 1peach, peach, Peach
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+In a while loop, the Boolean expression is tested
+Answer: *before the loop is executed
+Answer: after the loop is executed
+Answer: both before and after the loop is executed
+Answer: until it equals the current loop value
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+A for loop that uses a range() function is executed
+Answer: *once for each integer in the collection returned by the range() function
+Answer: until the for condition is equal to the value returned by the range() function
+Answer: while the for condition is less than the value returned by the range() function
+Answer: until the range() function returns a false value
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following is true for an if statement that has both elif and else clauses?
+Answer: If the condition in an elif clause is true, the statements in that clause are executed.
+Answer: *If the condition in the if clause is true, the statements in that clause are executed.
+Answer: If the condition in the else clause is true, the statements in that clause are executed.
+Answer: The statements in the else clause are always executed.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following begins by testing a condition defined by a Boolean expression and then executes a block of statements if the condition is true?
+Answer: a for statement	
+Answer: a switch statement	
+Answer: *a while statement
+Answer: a continue statement
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following can use the range() function to loop through a block of statements?
+Answer: *a for statement	
+Answer: an if statement	
+Answer: a while statement
+Answer: a break statement
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+To jump to the end of the current loop, you can use the 
+Answer: end statement	
+Answer: continue statement	
+Answer: *break statement
+Answer: switch statement
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+If you want to code an if clause, but you don’t want to perform any action, you can code
+Answer: an end statement	
+Answer: *a pass statement	
+Answer: a break statement
+Answer: a skip statement
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Which of the following is not an acceptable way to code a nested structure? 
+Answer: nest a for loop inside a while loop
+Answer: nest an if statement inside a for loop
+Answer: nest a while loop inside an elif clause
+Answer: *nest an else clause within an elif clause
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Pseudocode can be used to plan
+Answer: *the coding of control structures	
+Answer: the modules used in a program	
+Answer: the functions used by a program
+Answer: the conditions for control statements
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+What will be displayed after the following code executes?<pre>      guess = 19</pre><pre>      if guess < 19:</pre><pre>            print("Too low")</pre><pre>      elif guess > 19:</pre><pre>            print("Too high")</pre>
+Answer: Too low	
+Answer: Too high	
+Answer: *nothing will display
+Answer: Error:
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+Given the following code, select the compound condition that makes sure that the input is an integer greater than 0 and less than 1,000.<pre>      my_num = input("Enter a number between 1 and 999:")</pre><pre>      check_num = int(my_num)</pre><pre>      while _________________________:</pre><pre>            my_num = input("Try again. The number must be between 1 and 999")</pre><pre>            check_num = int(my_num)</pre>
+Answer: check_num <= 0 and check_num != 1000
+Answer: check_num < 0 and > 1000
+Answer: check_num <= 0 or check_num > 1000
+Answer: *check_num <= 0 or check_num >= 1000
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+What will this loop display?<pre>      sum = 0</pre><pre>      for i in range(0, 25, 5):</pre><pre>            sum += i</pre><pre>      print(sum)</pre>
+Answer: 30	
+Answer: *50	
+Answer: 0, 5, 10, 15, 20
+Answer: 0, 5, 10, 15, 20, 25
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+How many times will “Hi there!” be displayed after the following code executes?<pre>      num = 2</pre><pre>      while num < 12:</pre><pre>            print("Hi, there!")</pre><pre>            num += 2</pre>
+Answer: 2	
+Answer: 12	
+Answer: *5	
+Answer: 6
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+How many times will “Hi again!” be displayed after the following code executes?<pre>      for i in range(0, 12, 2):</pre><pre>            print("Hi, again!") </pre>
+Answer: 2	
+Answer: 12	
+Answer: 5	
+Answer: *6
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+For the following code, what will the result be if the user enters 4 at the prompt?<pre>      product = 1</pre><pre>      end_value = int(input("Enter a number: "))</pre><pre>      for i in range(1, end_value):</pre><pre>            product = product * i</pre><pre>            i += 1</pre><pre>      print("The product is ", product)</pre>
+Answer: The product is 1	
+Answer: The product is 4	
+Answer: *The product is 6
+Answer: The product is 24
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+For the following code, what will the result be if the user enters 4 at the prompt?<pre>      product = 1</pre><pre>      end_value = int(input("Enter a number: "))</pre><pre>      for i in range(1, end_value+1):</pre><pre>            product = product * i</pre><pre>            i += 1</pre><pre>      print("The product is ", product)</pre>
+Answer: The product is 1	
+Answer: The product is 4	
+Answer: The product is 6
+Answer: *The product is 24
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+
+
+mc
+For the following code, what will the result be if the user enters 5 at the prompt?<pre>      sum = 0</pre><pre>      end_value = int(input("Enter a number: "))</pre><pre>      for i in range(1, end_value):</pre><pre>      sum = sum + i</pre><pre>      print(sum, end=", ")</pre>
+Answer: 10, 	 
+Answer: *1, 3, 6, 10,	 
+Answer: 1, 3, 6, 10, 16,
+Answer: 1, 2, 3, 4, 5,
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 03
+

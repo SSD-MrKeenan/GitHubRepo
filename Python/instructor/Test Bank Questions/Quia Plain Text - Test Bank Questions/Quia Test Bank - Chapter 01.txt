@@ -1,0 +1,163 @@
+mc
+Python is considered a good first language to learn because:
+it has a simple syntax
+it has most of the features of traditional programming languages
+it is open source
+*all of the above
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+A console application runs
+through a browser	
+*via a command prompt	
+with a GUI
+through another application
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+A web application runs
+*through a browser	
+via a command prompt	
+with a GUI
+through another application
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+Which of the following translates bytecode into instructions for the computer?
+the IDE	
+the Python interpreter	
+*the Python virtual machine
+the computer’s operating system
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+The data in __________ is lost when an application ends.
+the application software	
+disk storage	
+*main memory
+the CPU
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+The data in __________ is persistent so it is not lost when an application ends.
+the application software	
+*disk storage	
+main memory
+the CPU
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+The __________ software for a computer provides the software that’s needed for running applications.
+application 	
+*systems	
+operation 
+GUI
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+To test a Python statement, you use:
+IDLE’s editor	
+*IDLE’s interactive shell	
+the F5 key
+the command line
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+To create a Python program, you use:
+*IDLE’s editor	
+IDLE’s interactive shell	
+the F5 key
+the command line
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+To run a Python program from IDLE, you use:
+IDLE’s editor	
+IDLE’s interactive shell	
+*the F5 key
+the command line
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+The goal of __________ is to fix all the errors in a program.
+editing	
+testing	
+*debugging	
+interpreting
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+The goal of __________ is to find all the errors in a program.
+editing	
+*testing	
+debugging	
+interpreting
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+A runtime error is also known as:
+a syntax error	
+a logical error	
+a violation	
+*an exception
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+Which type of errors must be fixed before the program can be compiled?
+*syntax errors	
+logical errors	
+violations	
+exceptions
+Points: 1
+Randomize: Y
+Label: Python Chapter 01
+
+
+mc
+When an exception occurs while a program is running, 
+the program crashes
+an error message is displayed on the console
+*the program crashes and an error message is displayed
+an error message is displayed but the program continues
+Points: 1
+Randomize: Y
+Label: Python Chapter 01

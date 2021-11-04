@@ -1,0 +1,370 @@
+mc
+To define a function, you code the def keyword and the name of the function followed by
+Answer: a set of parentheses
+Answer: *a set of parentheses that contains zero or more arguments
+Answer: a set of parentheses that contains one or more arguments
+Answer: a set of parentheses that contains a list of the local variables 
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+To call a function, you code the function name and 
+Answer: a set of parentheses 
+Answer: *a set of parentheses that contains zero or more arguments
+Answer: a set of parentheses that contains one or more arguments
+Answer: a set of parentheses that contains a list of the local variables
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+A return statement
+Answer: must be coded within every function
+Answer: *can be used to return a local variable to the calling function
+Answer: can be used to allow the function to modify the value of a global variable
+Answer: can only be used once in each function
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+The best way to call the main() function of a program is to code
+Answer: main()
+Answer: an if statement that calls the main() function only if the function exists
+Answer: *an if statement that calls the main() function only if the current module is the main module
+Answer: a while statement that calls the main() function in each loop
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+To assign a default value to an argument when you define a function, you
+Answer: code the default value instead of its name in the arguments list
+Answer: set the default value for the argument in the first line of code inside the function
+Answer: *code the name of the argument, the assignment operator (=), and the default value
+Answer: code the name of the argument, the default operator (:), and the default value
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+To call a function with named arguments, you code the 
+Answer: *name of each argument, an equals sign, and the value or variable that’s being passed
+Answer: values that you’re passing in the same sequence that the names are defined in the function
+Answer: values that you’re passing at the beginning of the function call
+Answer: values that you’re passing at the end of the function call, followed by the names that correspond with the values
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+A local variable is defined
+Answer: *inside a function
+Answer: inside the main() function
+Answer: inside an if statement
+Answer: outside of all functions
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+A global variable
+Answer: is defined inside the main() function
+Answer: cannot be modified inside a function 
+Answer: cannot be accessed from within a function
+Answer: *is defined outside of all functions
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+A file that contains reusable code is called a 
+Answer: *module	
+Answer: hierarchy chart	
+Answer: function
+Answer: namespace
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Which of the following statements is not true about the documentation of a module?
+Answer: The documentation can describe each function in the module.
+Answer: *You can use regular Python comments to document the functions of the module.
+Answer: You can call the help() function from the interactive shell to view the documentation.
+Answer: You can use Python docstrings to document the functions of the module.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Which of the following statements imports a module into the default namespace?
+Answer: *import temperature	
+Answer: import temperature as temp	
+Answer: from temperature import *
+Answer: import temperature as t
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Which of the following statements imports a module into the global namespace?
+Answer: import temperature	
+Answer: import temperature as temp	 
+Answer: *from temperature import *
+Answer: import temperature as global
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Which statement would you use to call the print_name() function from a module named address that has been imported with this statement?<pre>import address as a</pre>
+Answer: address.print_name(name)	
+Answer: *a.print_name(name)	
+Answer: print_name(name)
+Answer: global.print_name(name)
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+The default namespace for a module is
+Answer: the global namespace
+Answer: the name of the module followed by _default
+Answer: the first letter of the module name 
+Answer: *the same as the name of the module
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+If you import two modules into the global namespace and each has a function named get_value(), 
+Answer: an error occurs	
+Answer: *a name collision occurs	
+Answer: an exception occurs
+Answer: the program crashes
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Before you can use a standard module like the random module, you need to
+Answer: *import the module
+Answer: import the module into a custom namespace
+Answer: import the module into the global namespace
+Answer: import the module into its default namespace
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Which of the following is not true of hierarchy charts?
+Answer: Function names should start with a verb and indicate what the functions do.
+Answer: Each function should do only what is related to the function name.
+Answer: The top level box should be for the main() function.
+Answer: *Related functions should be combined into a single function.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What function is called first when this program runs?<pre>      def get_username(first, last):</pre><pre>            s = first + "." + last</pre><pre>            return s.lower()</pre><pre>      </pre><pre>      def main():</pre><pre>            first_name = input("Enter your first name: ")</pre><pre>            last_name = input("Enter your last name: ")</pre><pre>            username = get_username(first_name, last_name)</pre><pre>            print("Your username is: " + username)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: get_username()
+Answer: *main()
+Answer: if __name__ == "__main__"
+Answer: input("Enter your first name: ")
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What arguments are defined by the get_username() function?<pre>      def get_username(first, last):</pre><pre>            s = first + "." + last</pre><pre>            return s.lower()</pre><pre>      </pre><pre>      def main():</pre><pre>            first_name = input("Enter your first name: ")</pre><pre>            last_name = input("Enter your last name: ")</pre><pre>            username = get_username(first_name, last_name)</pre><pre>            print("Your username is: " + username)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: *first, last
+Answer: s, first, last
+Answer: first_name, last_name
+Answer: username
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+If the user enters ‘Lopez’ for the first prompt in main() and ‘Maria’ for the second prompt, what will display?<pre>      def get_username(first, last):</pre><pre>            s = first + "." + last</pre><pre>            return s.lower()</pre><pre>      </pre><pre>      def main():</pre><pre>            first_name = input("Enter your first name: ")</pre><pre>            last_name = input("Enter your last name: ")</pre><pre>            username = get_username(first_name, last_name)</pre><pre>            print("Your username is: " + username)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: Maria.Lopez
+Answer: maria.lopez
+Answer: *lopez.maria
+Answer: Lopez.Maria
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What is the scope of the variable named s?<pre>      def get_username(first, last):</pre><pre>            s = first + "." + last</pre><pre>            return s.lower()</pre><pre>      </pre><pre>      def main():</pre><pre>            first_name = input("Enter your first name: ")</pre><pre>            last_name = input("Enter your last name: ")</pre><pre>            username = get_username(first_name, last_name)</pre><pre>            print("Your username is: " + username)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: global
+Answer: *local
+Answer: global in main() but local in get_username()
+Answer: local in main() but global in get_username()
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What value is passed to the height argument by the call to the get_volume() function?<pre>      def get_volume(width, height, length=2):</pre><pre>            volume = width * height * length</pre><pre>            return volume</pre><pre>      </pre><pre>      def main():</pre><pre>            l = 3</pre><pre>            w = 4</pre><pre>            h = 5</pre><pre>            v = get_volume(l, w, h)</pre><pre>            print(v)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: 2	
+Answer: 3	
+Answer: *4
+Answer: 5
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+When this program runs, what does it print to the console?<pre>      def get_volume(width, height, length=2):</pre><pre>            volume = width * height * length</pre><pre>            return volume</pre><pre>      </pre><pre>      def main():</pre><pre>            l = 3</pre><pre>            w = 4</pre><pre>            h = 5</pre><pre>            v = get_volume(l, w, h)</pre><pre>            print(v)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: 24	
+Answer: 40	
+Answer: *60
+Answer: v
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What will be displayed after the code runs?<pre>      main program:</pre><pre>      import arithmetic as a</pre><pre>      </pre><pre>      def main():</pre><pre>            num1 = 5</pre><pre>            num2 = 6</pre><pre>            result = a.add(num1, num2)</pre><pre>            print("The sum is", result)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre><pre>      </pre><pre>      arithmetic module:</pre><pre>      def add(x = 4, y = 2):</pre><pre>            z = x + y</pre><pre>            return z</pre>
+Answer: *The sum is 11
+Answer: The sum is 6
+Answer: The sum is 17
+Answer: Nothing, the code causes an error
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What values are in x and y after the code runs?<pre>      main program:</pre><pre>      import arithmetic as a</pre><pre>      </pre><pre>      def main():</pre><pre>            num1 = 5</pre><pre>            num2 = 6</pre><pre>            result = a.add(num1, num2)</pre><pre>            print("The sum is", result)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre><pre>      </pre><pre>      arithmetic module:</pre><pre>      def add(x = 4, y = 2):</pre><pre>            z = x + y</pre><pre>            return z</pre>
+Answer: 9, 8	
+Answer: *5, 6	
+Answer: 4, 2
+Answer: 20, 12
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+What values are in x and y after the code runs?<pre>      main program:</pre><pre>      import arithmetic as a</pre><pre>      </pre><pre>      def multiply(num1, num2):</pre><pre>            product = num1 * num2</pre><pre>            result = a.add(product, product)</pre><pre>            return result</pre><pre>      </pre><pre>      def main():</pre><pre>            num1 = 4</pre><pre>            num2 = 3</pre><pre>            answer = multiply(num1, num2)</pre><pre>            print("The answer is", answer)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre><pre>      </pre><pre>      arithmetic module:</pre><pre>      def add(x, y):</pre><pre>            z = x + y</pre><pre>            return z</pre>
+Answer: 4, 3	
+Answer: 5, 6	
+Answer: *12, 12
+Answer: 24, 24
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+The add() function is called by<pre>      main program:</pre><pre>      import arithmetic as a</pre><pre>      </pre><pre>      def multiply(num1, num2):</pre><pre>            product = num1 * num2</pre><pre>            result = a.add(product, product)</pre><pre>            return result</pre><pre>      </pre><pre>      def main():</pre><pre>            num1 = 4</pre><pre>            num2 = 3</pre><pre>            answer = multiply(num1, num2)</pre><pre>            print("The answer is", answer)</pre><pre>      </pre><pre>      if __name__ == "__main__</pre>":<pre>            main()</pre><pre>      </pre><pre>      arithmetic module:</pre><pre>      def add(x, y):</pre><pre>            z = x + y</pre><pre>            return z</pre>
+Answer: the main() function	
+Answer: *the multiply() function	
+Answer: the arithmetic module
+Answer: the result statement
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+When this code runs, what does it print to the console?<pre>      main program:</pre><pre>      import arithmetic as a</pre><pre>      </pre><pre>      def multiply(num1, num2):</pre><pre>            product = num1 * num2</pre><pre>            result = a.add(product, product)</pre><pre>            return result</pre><pre>      </pre><pre>      def main():</pre><pre>            num1 = 4</pre><pre>            num2 = 3</pre><pre>            answer = multiply(num1, num2)</pre><pre>            print("The answer is", answer)</pre><pre>      </pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre><pre>      </pre><pre>      arithmetic module:</pre><pre>      def add(x, y):</pre><pre>            z = x + y</pre><pre>            return z</pre>
+Answer: The answer is 28	
+Answer: The answer is 12	
+Answer: The answer is  7
+Answer: *The answer is  24
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Assuming the random module has been imported into its default namespace, which of the following could possibly result in a value of 0.94?
+Answer: number = random.randfloat()
+Answer: number = random.randint(0, 1)
+Answer: number = random.randint(0, 1) / 100
+Answer: *number = random.random()
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Assuming the random module has been imported into its default namespace, which of the following could be used to simulate a coin toss where 0 = heads and 1 = tails?
+Answer: number = random.coin()
+Answer: *number = random.randint(0, 1)
+Answer: number = random.randint(0, 2)
+Answer: number = random.random()
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04
+
+
+mc
+Assuming the random module has been imported into its default namespace, which of the following could be used to generate a random even integer from 2 through 200?
+Answer: number = random(1, 100) * 2
+Answer: number = random.randint(2, 200, 2)
+Answer: *number = random.randrange(2, 202, 2)
+Answer: number = random.randrange(2, 200, 2)
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 04

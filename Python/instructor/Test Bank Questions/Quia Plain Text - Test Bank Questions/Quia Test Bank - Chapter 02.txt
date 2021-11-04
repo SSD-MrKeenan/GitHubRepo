@@ -1,0 +1,226 @@
+mc
+Python relies on correct __________ to determine the meaning of a statement.
+Answer: continuation	
+Answer: punctuation	
+Answer: *indentation
+Answer: comments
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Python comments  
+Answer: are ignored by the compiler
+Answer: can be used to document what a program or portion of code does
+Answer: can be used so certain lines of code are not executed during testing
+Answer: *all of the above
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Which of the following data types would you use to store the number 25.62?
+Answer: str	
+Answer: int	
+Answer: num	
+Answer: *float
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Which of the following doesn’t follow the best naming practices for variables?
+Answer: first_name	
+Answer: firstName	
+Answer: pay_rate
+Answer: *pRate
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Which of the following variable names uses camel case?
+Answer: first_name	
+Answer: *firstName	
+Answer: pay_rate
+Answer: prate
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Given: <pre>      x = 7 , y = 2 , z = 1.5</pre> What is the value of new_num after the following statement executes?<pre>      new_num = x / y + z</pre>
+Answer: 2	
+Answer: 4.5	
+Answer: *5.0	
+Answer: 3
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What is the value of my_num after the following statement executes?<pre>      my_num = (50 + 2 * 10 - 4) / 2</pre>
+Answer: 258	
+Answer: *33	
+Answer: 156	
+Answer: 29
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What is the value of number after the following statement executes?<pre>      number = (5 ** 2) * ((10 - 4) / 2)</pre>
+Answer: 30	
+Answer: *75	
+Answer: 200	
+Answer: 3
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Given: <pre>      x = 23 , y = 15</pre> What is the value of new_num after the following statement executes?<pre>      new_num = x % y</pre>
+Answer: 1	
+Answer: 1.533333	
+Answer: 0.533333	
+Answer: *8
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Given: <pre>      x = 23 , y = 15</pre> What is the value of new_num after the following statement executes?<pre>      new_num = x // y</pre>
+Answer: *1	
+Answer: 1.533333	
+Answer: 0.533333	
+Answer: 8
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What is the value of my_num after the following statements execute?<pre>      my_num = 5</pre><pre>      my_num += 20</pre><pre>      my_num -= 12</pre><pre>      my_num *= 0.5</pre>
+Answer: 0.5	
+Answer: *6.5	
+Answer: 6	
+Answer: 12.5
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Which of the following will get a floating-point number from the user?
+Answer: my_number = input(float("Enter a number:"))
+Answer: my_number = float(input "Enter a number:")
+Answer: *my_number = float(input("Enter a number:"))
+Answer: my_number = input("Enter a number:")
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+Given that <pre>      pi = 3.1415926535</pre> Which of the following print() functions displays:<pre>      pi = 3.14</pre>
+Answer: print("pi= ", round(pi, 2))	
+Answer: *print("pi = " + round(pi, 2))	
+Answer: print("pi = ", float(pi, 2))
+Answer: print("pi = ", round(pi))
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What is the argument of the print() function in the following Python statement?<pre>      print("My student ID is " + str(123456))</pre>
+Answer: 123456
+Answer: str(123456)
+Answer: "My student ID is "
+Answer: *"My student ID is " + str(123456)
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What will the following print() function display?<pre>      print("lions", "tigers", "bears", sep = ' & ', end = ' oh, my!!')</pre>
+Answer: *lions & tigers & bears oh, my!!
+Answer: lions&tigers&bearsoh, my!!
+Answer: lions & tigers & bears & oh, my!!
+Answer: lions, & tigers, & bears, oh, my!!
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What will be the result of the following code if the user enters 81 at the prompt?<pre>      score_curve = 7</pre><pre>      score = input("Enter your score on the exam: ")</pre><pre>      score_curve += score</pre><pre>      print(score_curve)</pre>
+Answer: 88 will be displayed on the console
+Answer: 81 will be displayed on the console
+Answer: *error: you cannot use the += operator to add a string variable to an int value
+Answer: error: you cannot print a numeric variable
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What, if anything, is wrong with this code?<pre>      my_age = input("Enter your age: ")</pre><pre>      myNewAge = int(my_age) + 5</pre><pre>      print("In 5 years you will be", myNewAge, ".")</pre>
+Answer: cannot mix camel case notation with underscore notation
+Answer: cannot change my_age to an int
+Answer: commas are used in the print() function that should be +
+Answer: *nothing is wrong with this code
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What, if anything, is wrong with this code?<pre>      rating = input("Enter the rating for this product: ")</pre><pre>      rating = rating + 2</pre><pre>      print("The adjusted rating is " + rating + ".")</pre>
+Answer: nothing is wrong with this code
+Answer: *a string variable is used in an arithmetic expression
+Answer: the coding in the print() function contains illegal plus signs
+Answer: the input() function should be an int() function
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02
+
+
+mc
+What, if anything, is wrong with this code?<pre>      student_score = int(input("Enter this student's score: "))</pre><pre>      score = student_score + 5</pre><pre>      print("With the 5-point curve, the student’s score is ", scores, ".")</pre>
+Answer: nothing is wrong with this code
+Answer: a string variable is used in an arithmetic expression
+Answer: *an undeclared variable name is used in the print() function
+Answer: the input() function is chained with the int() function
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 02

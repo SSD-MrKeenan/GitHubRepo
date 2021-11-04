@@ -1,0 +1,233 @@
+mc
+Which type of error prevents a program from compiling and running?
+Answer: exceptional	
+Answer: *syntax	
+Answer: runtime
+Answer: logic
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+Which type of error throws an exception that stops execution of the program?
+Answer: exceptional	
+Answer: syntax	
+Answer: *runtime
+Answer: logic
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+Which of the following is not a common type of syntax error?
+Answer: forgetting a colon	
+Answer: forgetting to close a parentheses	
+Answer: *invalid variable names
+Answer: improper indentation
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+When you plan the test runs for a program, you should do all but one of the following. Which one is it?
+Answer: list the valid entries for each test run
+Answer: list the invalid entries and unexpected user actions for each test run
+Answer: *list the expected exceptions for each test run
+Answer: list the expected results for each test run
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+When you trace the execution of a program, you insert print() functions at key points in the program. It makes sense for these functions to do all but one of the following. Which one is it?
+Answer: display the name of the function that the print() function is in
+Answer: display the values of the local variables in the function
+Answer: *display the values of the global constants used by the function
+Answer: display the values of the global variables used by the function
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+Which of the following is not true about top-down coding and testing?
+Answer: You start with just a few functions and the code in the main() function that calls those functions.
+Answer: You add the code for a few functions at a time, including the code in the main() function that calls those functions.
+Answer: *You should always start by coding and testing the most difficult functions.
+Answer: Top-down testing makes debugging easier because you know that any errors are caused by the code you’ve just added.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+To test the functions of a module from the IDLE shell, you
+Answer: run the module with varying input values
+Answer: run the module and then call any function from the IDLE shell
+Answer: *import the module and then call any function from the IDLE shell
+Answer: call any function in the module by using the default namespace
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+When you use the IDLE debugger, you start by setting a breakpoint
+Answer: on a comment line
+Answer: on the statement you believe is causing the bug
+Answer: *on a statement before the statement you think is causing the bug
+Answer: on the function definition for the function that you think is causing the bug
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+When the IDLE debugger reaches a breakpoint, you can do all but one of the following. Which one is it?
+Answer: step through the program one statement at a time
+Answer: run the program until the next breakpoint is reached
+Answer: view the values of the local variables that are in scope
+Answer: *view the values of all the variables that you’ve stepped through
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+The stack is available when an exception occurs. It displays a list of
+Answer: the functions that have been called since the program started
+Answer: *just the functions that were called prior to the exception
+Answer: all the local variables used by the program and their values
+Answer: all the local and global variables used by the program and their values
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+What line number of the following code contains an error and what type of error is it?<pre>      def sales_tax(amt)</pre><pre>            sale = amt + (amt * .06)</pre><pre>            return sale</pre><pre>      </pre><pre>      def main():</pre><pre>            print("Welcome to the 6% tax calculator!\n")</pre><pre>            total = int(input("Please enter the total amount: "))</pre><pre>            print("The total amount after tax is: ", sales_tax(total))</pre>
+Answer: line 1, runtime error	
+Answer: *line 1, syntax error	
+Answer: line 3, runtime error
+Answer: line 8, logic error
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+What line number of the following code contains an error and what type of error is it?<pre>      count = 1</pre><pre>      while count <= 4:</pre><pre>            print(count, end=" ")</pre><pre>            i *= 1</pre><pre>      print("\nThe loop has ended.") </pre>
+Answer: line 2, syntax error	
+Answer: line 3, syntax error	
+Answer: *line 4, runtime error
+Answer: line 5, logic error
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+Given the following code and its output:<pre>      discount_rate = .1</pre><pre>      item = 89.95</pre><pre>      discount = item * discount_rate</pre><pre>      print("The discount on this item is $", discount))</pre><pre>      </pre><pre>      The discount on this item is $ 8.995000000000001 </pre><pre>      </pre>Which of the following would produce a user-friendly correct result?
+Answer: change line 1 to: discount_rate = 10%
+Answer: change line 2 to: item = int(89.95)
+Answer: change line 3 to: discount = int(item * discount_rate)
+Answer: *change line 4 to: print("The discount on this item is $", round(discount, 2))
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+If the user enters 5, 10, and 15 at the prompts, the output is:<pre>      Total cost: 30</pre><pre>      Average cost: 8</pre>Which line should be changed to fix this logic error?<pre>      count = 1</pre><pre>      item_total = 0</pre><pre>      item = 0</pre><pre>      while count < 4:</pre><pre>            item = int(input("Enter item cost: "))</pre><pre>            item_total += item</pre><pre>            count += 1</pre><pre>      average_cost = round(item_total / count)</pre><pre>      print("Total cost:", item_total, "\nAverage cost:", average_cost)</pre>
+Answer: change line 4 to: while count <= 4:
+Answer: change line 6 to: item_total += item - 1
+Answer: *change line 8 to: average_cost = round(item_total / (count - 1))
+Answer: change line 1 to: count = 0
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+Given the following code, if the user worked 45 hours at $10.00/hour, the output is as shown below. <pre>      def main():</pre><pre>      hours = float(input("How many hours did you work? "))</pre><pre>      rate = float(input("What is your hourly rate? "))</pre><pre>      if (hours > 40) and (rate < 15):</pre><pre>            pay = (hours * rate) + (hours - 40 * rate * 1.5)</pre><pre>      else:</pre><pre>            pay = hours * rate</pre><pre>      print("Your pay is: $ ", round(pay, 2))</pre><pre>      </pre><pre>      Your pay is: $  -105.0</pre>Which line should be changed to fix this logic error?
+Answer: change lines 2 and 3 to receive integer values instead of floating-point
+Answer: change line 4 to: if (hours > 40) or (rate < 15):
+Answer: *change line 5 to: pay = (40 * rate) + ((hours - 40) * rate * 1.5)
+Answer: change line 8 to: print("Your pay is: $ ", str(round(pay, 2)))
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+What is the error in the main() function?<pre>      # This application displays a student's score after a 5-point curve</pre><pre>      </pre><pre>      def display_info(fname, lname, score):</pre><pre>            print("Hello, " , fname, " " , Lname)</pre><pre>            print("Your score on this exam is ", score)</pre><pre>            score = score + 5</pre><pre>      </pre><pre>      def main():</pre><pre>            first = input("first name: ")</pre><pre>            last = input("last name: ")</pre><pre>            grade = input("exam score: ")</pre><pre>            display_info(last, first, score)</pre><pre>      </pre><pre>      # if started as the main module, call the main function</pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: *The input statement on line 11 gets a variable named grade but sends in an undefined variable named score on line 12
+Answer: The input statement on line 11 does not define grade as an int
+Answer: The function call on line 12 should send in fname and lname as arguments, not last and first
+Answer: There are no errors in main()
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+What is the first error in the display_info() function?<pre>      # This application displays a student's score after a 5-point curve</pre><pre>      </pre><pre>      def display_info(fname, lname, score):</pre><pre>            print("Hello, " , fname, " " , Lname)</pre><pre>            print("Your score on this exam is ", score)</pre><pre>            score = score + 5</pre><pre>      </pre><pre>      def main():</pre><pre>            first = input("first name: ")</pre><pre>            last = input("last name: ")</pre><pre>            grade = input("exam score: ")</pre><pre>            display_info(last, first, score)</pre><pre>      </pre><pre>      # if started as the main module, call the main function</pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: The arguments on line 3 should be first and last, not fname and lname
+Answer: *The variable Lname on line 4 does not exist
+Answer: The print statement on line 4 should use the + operator instead of commas
+Answer: You cannot add a number to itself, as on line 6
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+What is the error on line 6?<pre>1.      # This application displays a student's score after a 5-point curve</pre><pre>2.      </pre><pre>3.      def display_info(fname, lname, score):</pre><pre>4.      print("Hello, " , fname, " " , Lname)</pre><pre>5.            print("Your score on this exam is ", score)</pre><pre>6.            score = score + 5</pre><pre>7.      </pre><pre>8.      def main():</pre><pre>9.          first = input("first name: ")</pre><pre>10.         last = input("last name: ")</pre><pre>11.         grade = input("exam score: ")</pre><pre>12.         display_info(last, first, score)</pre><pre>13.   </pre><pre>14.   # if started as the main module, call the main function</pre><pre>15.   if __name__ == "__main__":</pre><pre>16.         main()</pre>
+Answer: You cannot change the value of score after it has been displayed..
+Answer: You cannot add a number to itself.
+Answer: *The variable score has been input as a string so it must be converted to an int or float.
+Answer: There is no error on line 6
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+mc
+Assuming the coding errors have been fixed, what is the logic error in this program?<pre>      # This application displays a student's score after a 5-point curve</pre><pre>      </pre><pre>      def display_info(fname, lname, score):</pre><pre>            print("Hello, " , fname, " " , Lname)</pre><pre>            print("Your score on this exam is ", score)</pre><pre>            score = score + 5</pre><pre>      </pre><pre>      def main():</pre><pre>            first = input("first name: ")</pre><pre>            last = input("last name: ")</pre><pre>            grade = input("exam score: ")</pre><pre>            display_info(last, first, score)</pre><pre>      </pre><pre>      # if started as the main module, call the main function</pre><pre>      if __name__ == "__main__":</pre><pre>            main()</pre>
+Answer: The arguments are listed in the wrong order.
+Answer: *The curve is calculated after the score has been displayed.
+Answer: The display_info() function should be called before the input statements on lines 9-11.
+Answer: There is no logic error in this program.
+Points: 1
+Randomize: Y
+HTML: Y
+Label: Python Chapter 05
+
+
+
+
+
+
+
