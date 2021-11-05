@@ -5,3 +5,4 @@ while i < len(prices):
     	total += prices[i]
     	i += 1
 print(total)
+# test using repo extension
