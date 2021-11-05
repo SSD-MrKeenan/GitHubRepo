@@ -6,3 +6,4 @@ while i < len(prices):
     	i += 1
 print(total)
 # test using repo extension
+#again
