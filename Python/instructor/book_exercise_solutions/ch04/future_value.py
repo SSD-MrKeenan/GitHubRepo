@@ -11,13 +11,7 @@
 ##                  "and less than or equal to", high,
 ##                  "Please try again.")
 ##            
-## test change from vs to github again
-<<<<<<< HEAD
-=======
-## and again
-## and back
-## and forth
->>>>>>> df2ca655118cb25c6b0d8ee3ef82b252c871b296
+## test change from replit to github again
 ##def get_int(prompt, low, high):
 ##    while True:
 ##        number = int(input(prompt))
